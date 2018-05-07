@@ -157,12 +157,25 @@
     button[aria-expanded="true"] .rotate {
       transform: rotate(45deg)
     }
+
+    .panel-control.active {
+      background-color: #00FFBB;
+      color: #303030;
+    }
+
+    .panel {
+      display: none;
+    }
+
+    .panel.active {
+      display: block;
+    }
   </style>
 </head>
 <body class="bg-black white pt6-l">
   <header class="mw9 ph3 center absolute-l top-0 left-0 right-0 w-100 z-2">
     <nav class="flex flex-wrap justify-between items-center pa3">
-      <a class="db dim tc tl-l order-0" href="index.html" title="Home">
+      <a class="db dim tc tl-l order-0 pt3" href="index.html" title="Home">
         <svg xmlns="http://www.w3.org/2000/svg" width="71" height="72" viewBox="0 0 71 72"><g fill="none" fill-rule="evenodd"><path fill="#0FB" d="M21 29.336l-8-9h8zM21 49.336h-8l8-9zM22 20.336h8v9h-8zM40 20.336h8v9h-8zM31 20.336h8v9h-8zM22 40.336h8v9h-8zM40 40.336h8v9h-8zM31 40.336h8v9h-8zM49 49.336v-9h8zM57 29.336h-8v-9zM49 30.336h8v9h-8zM22 .336h8v9h-8zM21 9.336h-8l8-9zM40 .336h8v9h-8zM31 .336h8v9h-8zM49 9.336v-9h8zM13 10.336h8v9h-8z"/><path fill="#F4FDFB" d="M3.95 64.847c-.325-.514-.798-.772-1.42-.772-.194 0-.384.028-.57.084a1.523 1.523 0 0 0-.503.258 1.262 1.262 0 0 0-.358.447c-.09.183-.135.398-.135.644 0 .358.094.636.28.834.187.197.418.36.695.486.276.127.579.241.907.342a4 4 0 0 1 .907.403c.277.168.508.39.695.666.187.276.28.653.28 1.13a2.16 2.16 0 0 1-.773 1.69c-.231.194-.49.343-.777.448a2.514 2.514 0 0 1-.866.157c-.45 0-.876-.092-1.28-.275-.405-.182-.749-.483-1.032-.9l.674-.527c.159.291.38.524.663.7.284.175.62.263 1.006.263.187 0 .373-.032.56-.095a1.519 1.519 0 0 0 .87-.733c.098-.18.146-.385.146-.616 0-.276-.053-.505-.16-.688a1.446 1.446 0 0 0-.426-.46 2.606 2.606 0 0 0-.601-.307 39.196 39.196 0 0 0-.695-.246 7.215 7.215 0 0 1-.694-.28 2.374 2.374 0 0 1-.602-.397 1.772 1.772 0 0 1-.425-.605c-.107-.242-.16-.546-.16-.912 0-.38.067-.712.202-.996a2.04 2.04 0 0 1 .539-.705c.224-.187.478-.325.762-.414.283-.09.574-.135.87-.135a2.9 2.9 0 0 1 1.13.213c.34.142.654.392.944.75l-.653.548zM18.351 67.5c0-.455-.069-.89-.207-1.304a3.365 3.365 0 0 0-.596-1.091 2.79 2.79 0 0 0-2.214-1.03 2.79 2.79 0 0 0-2.213 1.03c-.26.313-.458.677-.596 1.091a4.09 4.09 0 0 0-.208 1.304c0 .455.07.89.208 1.304.138.414.337.778.596 1.091a2.79 2.79 0 0 0 2.214 1.03 2.79 2.79 0 0 0 2.213-1.03c.26-.313.458-.677.596-1.091a4.09 4.09 0 0 0 .207-1.304zm.81 0c0 .604-.098 1.16-.291 1.668a4.019 4.019 0 0 1-.804 1.315 3.674 3.674 0 0 1-2.732 1.18 3.674 3.674 0 0 1-2.732-1.18 4.019 4.019 0 0 1-.803-1.315 4.643 4.643 0 0 1-.29-1.668c0-.604.096-1.16.29-1.668.193-.507.461-.945.803-1.315a3.674 3.674 0 0 1 2.732-1.18 3.674 3.674 0 0 1 2.732 1.18c.342.37.61.808.804 1.315.193.508.29 1.064.29 1.668zm8.003 3.223h3.422v.74h-4.168v-7.925h.746v7.185zm11.167-2.081h3.183l-1.587-4.164-1.596 4.164zm-1.089 2.82h-.87l3.192-7.924h.726l3.194 7.924h-.871l-.81-2.082h-3.752l-.809 2.082zm18.31-1.209h.02v-6.715h.747v7.924h-.933l-4.375-6.782h-.021v6.782h-.746v-7.924h.933l4.375 6.715zm9.487-1.611h3.183l-1.587-4.164-1.596 4.164zm-1.089 2.82h-.87l3.193-7.924h.725l3.194 7.924h-.871l-.809-2.082h-3.753l-.809 2.082z"/></g></svg>
       </a>
       <a href="#" class="btn btn-main btn-sml f7 f6-ns tracked ttu dib c-black b br2 grow no-underline order-1 order-2-l">Sign up for updates</a>
@@ -176,14 +189,14 @@
     </nav>
   </header>
 
-  <section class="mw9 center pv5 ph3 ph4-ns mb5">
+  <section class="mw9 center pv5 ph3 ph5-ns mb5">
     <h1 class="f1 lh-title white">Technology</h1>
     <p class="lh-copy mb5 measure c-light-gray">
       In fact, some argue that Bitcoin’s Proof of Work algorithm’s most essential feature is functioning as a decentralized clock.
     </p>
 
     <section class="overflow-hidden">
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -198,7 +211,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -213,7 +226,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -228,7 +241,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -243,7 +256,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -258,7 +271,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -273,7 +286,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -288,7 +301,7 @@
           </div>
         </a>
       </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-25-ns pa2-ns">
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-33-ns pa2-ns">
         <a href="#" class="db no-underline bg-white br2">
           <img class="db br2 br--top w-100" src="https://source.unsplash.com/Skf7HxARcoc/400x200">
           <div class="pa3">
@@ -308,7 +321,7 @@
   </section>
 
   <div class="bg-black-20">
-    <section class="mw9 center pv5 ph3 ph4-ns pb6-ns">
+    <section class="mw9 center pv5 ph3 ph5-ns pb6-ns">
     <h1 class="f2 lh-title white">Frequently Asked Questions</h1>
     <p class="lh-copy mb5 measure c-light-gray">
       In fact, some argue that Bitcoin’s Proof of Work algorithm’s most essential feature is functioning as a decentralized clock.
@@ -316,25 +329,25 @@
 
     <section class="db flex-ns flex-wrap">
       <div class="w-100 w-30-l mb3">
-        <button class="tab dib pa3 f5 button-reset pointer b w-100 link tl flex justify-between bg-primary-bright c-black" style="border: 0">
+        <button class="panel-control dib pa3 f5 button-reset pointer b w-100 link tl flex justify-between bg-black-20 hover-bg-black bg-animate c-light-gray active" style="border: 0" id="panel-1">
           General
           <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#303030" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
         </button>
-        <button class="tab button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0">
+        <button class="panel-control button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0" id="panel-2">
           Technical
           <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#303030" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
         </button>
-        <button class="tab button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0">
+        <button class="panel-control button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0" id="panel-3">
           SOL tokens
           <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#303030" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
         </button>
-        <button class="tab button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0">
+        <button class="panel-control button-reset dib bb bg-black-20 hover-bg-black bg-animate pointer c-light-gray bw1 pa3 f5 b w-100 link tl flex justify-between" style="border: 0" id="panel-4">
           Proof Of History
           <span class="arrow">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#303030" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
@@ -342,378 +355,178 @@
         </button>
       </div>
       <div class="db w-100 w-70-l pl4-l">
-        <dl class="tab-content db js-badger-accordion">
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-        </dl>
-        <dl class="tab-content dn js-badger-accordion">
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-        </dl>
-        <dl class="tab-content dn js-badger-accordion">
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-        </dl>
-        <dl class="tab-content dn js-badger-accordion">
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-          <dt class="bt b--silver">
-            <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
-              Never heard of sourcepawn?
-              <span class="rotate">
-                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
-              </span>
-            </button>
-          </dt>
-          <dd class="badger-accordion__panel js-badger-accordion-panel">
-            <div class="js-badger-accordion-panel-inner pa3 lh-copy">
-              Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
-            </div>
-          </dd>
-        </dl>
+        <div class="panel active" id="panel-1-display">
+          <dl class="db js-badger-accordion">
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class="panel" id="panel-2-display">
+          <dl class="db js-badger-accordion">
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class="panel" id="panel-3-display">
+          <dl class="db js-badger-accordion">
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+          </dl>
+        </div>
+        <div class="panel" id="panel-4-display">
+          <dl class="db js-badger-accordion">
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+            <dt class="bt b--silver">
+              <button class="js-badger-accordion-header dib pa3 f5 button-reset bg-transparent b w-100 white link tl flex justify-between" style="border: 0">
+                Never heard of sourcepawn?
+                <span class="rotate">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14"><g fill="none" fill-rule="evenodd" stroke="#00CF98" stroke-linecap="square" stroke-width="2"><path d="M1 7h12M7 1v12"/></g></svg>
+                </span>
+              </button>
+            </dt>
+            <dd class="badger-accordion__panel js-badger-accordion-panel">
+              <div class="js-badger-accordion-panel-inner pa3 lh-copy">
+                Yea, we are trying to push everything to the gpu. whats funny is that the C code was an experiment, and i witched to rust and passed it 10x in features, but is still taking up way more space and assembly is just for sha256, nothing else.  really speaks for language efficiency. I bet it’s counting the uecc library.
+              </div>
+            </dd>
+          </dl>
+        </div>
       </div>
     </section>
   </section>
@@ -763,9 +576,7 @@
   </footer>
 
   <script
-  src="https://code.jquery.com/jquery-2.2.4.min.js"
-  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
-  crossorigin="anonymous"></script>
+  src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="js/app.js"></script>
 </body>
 </html>
