@@ -46,7 +46,7 @@ setInterval(function() {
     hasScrolled();
     didScroll = false;
   }
-}, 150);
+}, 100);
 
 function hasScrolled() {
   var st = $(this).scrollTop();
@@ -57,13 +57,14 @@ function hasScrolled() {
 
   // If they scrolled down and are past the navbar, add class .nav-up.
   // This is necessary so you never see what is "behind" the navbar.
-  if (st > lastScrollTop && st > navbarHeight) {
+  console.log(st);
+  if ( st < 200) {
     // Scroll Down
-    $('header').removeClass('nav-down').addClass('nav-up');
+    $('.site-header').removeClass('nav-down').addClass('nav-up');
   } else {
     // Scroll Up
     if(st + $(window).height() < $(document).height()) {
-      $('header').removeClass('nav-up').addClass('nav-down');
+      $('.site-header').removeClass('nav-up').addClass('nav-down');
     }
   }
 
