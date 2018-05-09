@@ -106,8 +106,13 @@ h6 {
 .bg-primary {
   background-color: #00cf98;
 }
+
 .bg-primary-bright {
   background-color: #00ffbb;
+}
+
+.bg-error {
+  background-color: #ff2e2e;
 }
 
 .bg-black {
