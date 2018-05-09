@@ -142,6 +142,10 @@ h6 {
   padding: 1rem 2rem;
 }
 
+.btn-xs {
+  padding: .5rem 1rem;
+}
+
 .btn-lrg {
   padding: 1.4rem 2rem;
   min-width: 250px;
@@ -189,11 +193,6 @@ h6 {
 .features-link.is-active {
   background-color: transparent !important;
   color: #ffffff !important;
-}
-
-.features.active:focus:after,
-.features:focus:after {
-  width: 100%;
 }
 
 .site-header {
@@ -441,4 +440,21 @@ button[aria-expanded="true"] .rotate {
     left: -11px;
     top: -60px;
   }
+}
+
+
+
+/* Mailchimp form styles */
+#mc_embed_signup input.mce_inline_error {
+  border-color: #ff2e2e !important;
+}
+
+#mc_embed_signup div.mce_inline_error {
+  background-color: #ff2e2e !important;
+  font-weight: normal !important;
+  z-index: 1;
+  color: #fff;
+  display: inline-block;
+  background: white;
+  position: absolute;
 }
