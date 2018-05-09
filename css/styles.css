@@ -196,16 +196,14 @@ h6 {
 }
 
 .site-header {
-  transition: top 0.2s ease-in-out;
-}
-
-.nav-up {
-  top: -140px;
+  background-color: rgba(0, 0, 0, 0.75);
+  box-shadow: 0 1px 4px 0 rgba(23, 23, 23, 0.5);
+  transition: .2s ease-in-out top;
+  top: -100px;
 }
 
 .nav-down {
-  background-color: rgba(0, 0, 0, 0.75);
-  box-shadow: 0 1px 4px 0 rgba(23, 23, 23, 0.5);
+  top: 0;
 }
 
 .nav-down .logo {

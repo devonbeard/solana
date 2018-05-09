@@ -53,11 +53,11 @@ function hasScrolled() {
   // This is necessary so you never see what is "behind" the navbar.
   if ( st < 200) {
     // Scroll Down
-    $('.site-header').removeClass('nav-down').addClass('dn').addClass('nav-up');
+    $('.site-header').removeClass('nav-down').addClass('nav-up');
   } else {
     // Scroll Up
     if(st + $(window).height() < $(document).height()) {
-      $('.site-header').removeClass('nav-up').removeClass('dn').addClass('nav-down');
+      $('.site-header').removeClass('nav-up').addClass('nav-down');
     }
   }
 
