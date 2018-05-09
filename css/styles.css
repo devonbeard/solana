@@ -142,6 +142,11 @@ h6 {
   padding: 1rem 2rem;
 }
 
+.btn-lrg {
+  padding: 1.4rem 2rem;
+  min-width: 250px;
+}
+
 @media screen and (max-width: 600px) {
   .btn-sml {
     padding: 0.8rem 1.2rem;
@@ -149,9 +154,9 @@ h6 {
 }
 
 .btn-alt {
-  border-color: #f5146d;
-  background-color: #fff;
-  color: #f5146d;
+  background-color: transparent;
+  border-color: #00ffbb;
+  color: #00ffbb;
 }
 
 .bc-main {
@@ -264,7 +269,7 @@ button[aria-expanded="true"] .rotate {
   color: #fff;
   display: block;
   font-weight: bold;
-  padding: 1.2rem 1.6rem;
+  padding: 1.2rem 0;
   -webkit-transition: 0.2s ease-in-out all;
   -o-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
@@ -281,13 +286,12 @@ button[aria-expanded="true"] .rotate {
   -webkit-transition: 0.2s ease-in-out all;
   -o-transition: 0.2s ease-in-out all;
   transition: 0.2s ease-in-out all;
-  top: 15%;
-  left: 1.5rem;
+  top: 30%;
 }
 
 .input-container:focus-within .input-label,
 .input--filled .input-label {
-  top: -5px;
+  top: -10px;
   left: 0;
   font-size: 0.8rem;
 }
