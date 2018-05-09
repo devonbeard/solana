@@ -16,11 +16,11 @@ new BadgerAccordion('.js-badger-accordion-4')
 
 $('.panel-control').on('click', function(e) {
   var panelID = $(this).attr("id");
-  $(this).addClass('active').siblings('.active').toggleClass('active');
-  if ($(`#${panelID}-display`).hasClass('active')) {
+  $(this).addClass('is-active').siblings('.is-active').toggleClass('is-active');
+  if ($(`#${panelID}-display`).hasClass('is-active')) {
     // do nothing
   } else {
-    $(`#${panelID}-display`).toggleClass('active').siblings('.active').removeClass('active');
+    $(`#${panelID}-display`).toggleClass('is-active').siblings('.is-active').removeClass('is-active');
   }
 });
 
@@ -53,14 +53,13 @@ function hasScrolled() {
 
   // If they scrolled down and are past the navbar, add class .nav-up.
   // This is necessary so you never see what is "behind" the navbar.
-  console.log(st);
   if ( st < 200) {
     // Scroll Down
-    $('.site-header').removeClass('nav-down').addClass('nav-up');
+    $('.site-header').removeClass('nav-down').addClass('dn').addClass('nav-up');
   } else {
     // Scroll Up
     if(st + $(window).height() < $(document).height()) {
-      $('.site-header').removeClass('nav-up').addClass('nav-down');
+      $('.site-header').removeClass('nav-up').removeClass('dn').addClass('nav-down');
     }
   }
 
@@ -71,16 +70,9 @@ function hasScrolled() {
 
 
 
-
-
-
-
-
-
 // Form Input Functionality
 var validInputs = $('.input');
 validInputs.map(function(inputEl) {
-  console.log('called')
   if (inputEl.value !== "") {
     $(inputEl).parent().addClass("input--filled");
   }
@@ -100,3 +92,41 @@ function onInputBlur(ev) {
     $(this).parent().removeClass("input--filled");
   }
 }
+
+
+// Smooth scrolling
+$('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 750, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
