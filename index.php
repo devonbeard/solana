@@ -172,7 +172,7 @@
 
 
   <section class="bg-black">
-    <section class="mw9 center pv5 ph3 ph5-ns pb6-ns">
+    <section id="roadmap" class="mw9 center pv5 ph3 ph5-ns pb6-ns">
       <h1 class="f2 lh-title mb5">Our Roadmap</h1>
       <ul class="roadmap-list ml2">
         <li class="list roadmap-list-item mb5">
@@ -205,7 +205,7 @@
 
 
   <section class="bg-black-05">
-    <section class="mw9 center pv5 ph3 ph5-ns pb5-ns">
+    <section id="team" class="mw9 center pv5 ph3 ph5-ns pb5-ns">
       <h1 class="f2 lh-title white mb5">The Team</h1>
 
       <section class="flex flex-wrap justify-between">

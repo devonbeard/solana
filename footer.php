@@ -7,9 +7,10 @@
       <section class="w-100 w-30-l pr3">
         <div class="flex flex-wrap justify-between mb3 mb6-l">
           <nav class="w-50 w-30-l">
-            <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php#welcome">Welcome</a>
+            <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php">Welcome</a>
             <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php#features">Features</a>
             <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php#use-cases">Use Cases</a>
+            <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php#roadmap">Roadmap</a>
             <a class="db mw5 link mb3 lh-copy white dim no-underline f6" href="index.php#team">Our Team</a>
           </nav>
           <nav class="w-50 w-30-l">
