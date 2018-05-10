@@ -220,6 +220,7 @@ fadeIn
 }
 
 .nav-link:focus:after,
+.nav-link:hover:after,
 .nav-link.is-active:after {
   width: 100%;
 }
