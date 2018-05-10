@@ -174,32 +174,57 @@
   <section class="bg-black">
     <section class="mw9 center pv5 ph3 ph5-ns pb6-ns">
       <h1 class="f2 lh-title mb5">Our Roadmap</h1>
-      <ul class="roadmap-list ml2">
-        <li class="list roadmap-list-item mb5">
-          <p class="f6 b mb2">November 2017</p>
-          <p class="f6 white-80">Idea/conception and whitepaper</p>
-        </li>
-        <li class="list roadmap-list-item mb5">
-          <p class="f6 b mb2">February 2018</p>
-          <p class="f6 white-80">Whitepaper and initial testnet</p>
-        </li>
-        <li class="list roadmap-list-item current mb5">
-          <p class="f6 b mb2">June 2018</p>
-          <p class="f6 white-80">Testnet 2.0 and public demo</p>
-        </li>
-        <li class="list roadmap-list-item future mb5">
-          <p class="f6 b mb2">September 2018</p>
-          <p class="f6 white-80">Public beta</p>
-        </li>
-        <li class="list roadmap-list-item future mb5">
-          <p class="f6 b mb2">Q4 2018</p>
-          <p class="f6 white-80">Live mainnet</p>
-        </li>
-        <li class="list roadmap-list-item future mb5">
-          <p class="f6 b mb2">Q4 2019</p>
-          <p class="f6 white-80">Token distribution and partnerships</p>
-        </li>
-      </ul>
+
+      <section id="cd-timeline" class="cd-container">
+        <div class="cd-timeline-block mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">November 2017</p>
+            <p class="f6 white-80">Idea/conception and whitepaper</p>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">February 2018</p>
+            <p class="f6 white-80">Whitepaper and initial testnet</p>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block current mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">June 2018</p>
+            <p class="f6 white-80">Testnet 2.0 and public demo</p>
+          </div> <!-- cd-timeline-content -->
+        </div> <!-- cd-timeline-block -->
+        <div class="cd-timeline-block future mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">September 2018</p>
+            <p class="f6 white-80">Public beta</p>
+          </div>
+        </div>
+        <div class="cd-timeline-block future mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">Q4 2018</p>
+            <p class="f6 white-80">Live mainnet</p>
+          </div>
+        </div>
+        <div class="cd-timeline-block future mb4">
+          <div class="cd-timeline-img cd-picture">
+          </div>
+          <div class="cd-timeline-content">
+            <p class="f6 b mb2">Q4 2019</p>
+            <p class="f6 white-80">Token distribution and partnerships</p>
+          </div>
+        </div>
+    	</section> <!-- cd-timeline -->
     </section>
   </section>
 
