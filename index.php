@@ -28,7 +28,7 @@
 
   <section class="bg-black-20">
     <section id="features" class="mw9 center pv5 ph3 ph4-m ph5-l pb6-ns no-focus overflow-x-auto">
-      <div class="w-100 mb2 mb5-l tc">
+      <div class="w-100 mb2 mb5-l tc pt5 pt4-ns">
         <button class="panel-control features-link nav-link dim white mr4 mb3 b is-active" id="panel-1">
           Time as Data
         </button>
