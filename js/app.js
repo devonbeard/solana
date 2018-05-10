@@ -138,3 +138,9 @@ $('.js-number').on('blur', function() {
   var formattedNum = formatNumber(this.value);
   this.value = formattedNum;
 });
+
+
+// Carousel 
+$(document).ready(function(){
+  $('.slick-carousel').slick({});
+});
