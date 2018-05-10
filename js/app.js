@@ -4,8 +4,15 @@
   var allPanels = $('.js-badger-accordion > dd').hide();
 
   $('.js-badger-accordion-header').click(function() {
-    allPanels.slideUp();
-    $(this).parent().next().slideDown();
+    if ( $(this).hasClass('is-active') ) {
+      $(this).removeClass('is-active');
+      allPanels.slideUp();
+    } else {
+      allPanels.slideUp();
+      $(this).addClass('is-active');
+      $(this).parent().next().slideDown();
+    }
+
     return false;
   });
 
@@ -140,7 +147,10 @@ $('.js-number').on('blur', function() {
 });
 
 
-// Carousel 
-$(document).ready(function(){
-  $('.slick-carousel').slick({});
+// Carousel
+$(document).ready(function() {
+  var carousel = $('.slick-carousel');
+  if ( carousel.length ) {
+    $('.slick-carousel').slick();
+  }
 });
