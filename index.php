@@ -29,16 +29,16 @@
   <section class="bg-black-20">
     <section id="features" class="mw9 center pv5 ph3 ph4-m ph5-l pb6-ns no-focus overflow-x-auto">
       <div class="w-100 mb2 mb5-l tc">
-        <button class="panel-control features-link nav-link white mr4 mb3 b is-active" id="panel-1">
+        <button class="panel-control features-link nav-link dim white mr4 mb3 b is-active" id="panel-1">
           Time as Data
         </button>
-        <button class="panel-control features-link nav-link white mr4 mb3 b" id="panel-2">
+        <button class="panel-control features-link nav-link dim white mr4 mb3 b" id="panel-2">
           Scalable Finality
         </button>
-        <button class="panel-control features-link nav-link white mr4 mb3 b" id="panel-3">
+        <button class="panel-control features-link nav-link dim white mr4 mb3 b" id="panel-3">
           No Sharding
         </button>
-        <button class="panel-control features-link nav-link white mr4 mb3 b" id="panel-4">
+        <button class="panel-control features-link nav-link dim white mr4 mb3 b" id="panel-4">
           Smart Contracts
         </button>
       </div>
