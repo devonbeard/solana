@@ -293,32 +293,32 @@
   </section>
 
 
-  <section class="bg-black-05 bt bb b--white-10">
+<!--   <section id="press" class="bg-black-05 bt bb b--white-10">
     <div class="slick-carousel">
       <div class="mw9 center pa5 pa6-l tc">
         <h4 class="f3 f2-m f-subheadline-l lh-title normal measure center mb4">
           “This is a gamechanger. It’s blockchain rebuilt from the ground up.”
         </h4>
 
-        <p class="f5 f4-ns">- Kyle Samani, Multicoin Capital</p>
+        <p class="f5 f4-ns">- Eric Williams</p>
       </div>
       <div class="mw9 center pa5 pa6-l tc">
         <h4 class="f3 f2-m f-subheadline-l lh-title normal measure center mb4">
           “This is a gamechanger. It’s blockchain rebuilt from the ground up.”
         </h4>
 
-        <p class="f5 f4-ns">- Kyle Samani, Multicoin Capital</p>
+        <p class="f5 f4-ns">- Eric Williams</p>
       </div>
       <div class="mw9 center pa5 pa6-l tc">
         <h4 class="f3 f2-m f-subheadline-l lh-title normal measure center mb4">
           “This is a gamechanger. It’s blockchain rebuilt from the ground up.”
         </h4>
 
-        <p class="f5 f4-ns">- Kyle Samani, Multicoin Capital</p>
+        <p class="f5 f4-ns">- Eric Williams</p>
       </div>
     </div>
 
-  </section>
+  </section> -->
 
 </main>
 
