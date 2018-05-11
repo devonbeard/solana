@@ -5,87 +5,87 @@
 
     <section class="cf">
       <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline br2">
-          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
-          <div class="pa3 bg-white">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
-            <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
-            </p>
-            <p class="c-primary f6 f5-ns b flex items-center">
-              Continue Reading
-              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
-            </p>
-          </div>
-        </a>
-      </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline br2">
-          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
-          <div class="pa3 bg-white">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
-            <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
-            </p>
-            <p class="c-primary f6 f5-ns b flex items-center">
-              Continue Reading
-              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
-            </p>
-          </div>
-        </a>
-      </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline br2">
-          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
-          <div class="pa3 bg-white">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
-            <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
-            </p>
-            <p class="c-primary f6 f5-ns b flex items-center">
-              Continue Reading
-              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
-            </p>
-          </div>
-        </a>
-      </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline br2">
-          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
-          <div class="pa3 bg-white">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
-            <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
-            </p>
-            <p class="c-primary f6 f5-ns b flex items-center">
-              Continue Reading
-              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
-            </p>
-          </div>
-        </a>
-      </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline br2">
-          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
-          <div class="pa3 bg-white">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
-            <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
-            </p>
-            <p class="c-primary f6 f5-ns b flex items-center">
-              Continue Reading
-              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
-            </p>
-          </div>
-        </a>
-      </article>
-      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
-        <a href="#" class="db no-underline bg-white br2">
+        <a href="https://medium.com/solana-labs/solana-newsletter-2-677a9b8c7d11" class="db no-underline bg-white br2">
           <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
           <div class="pa3">
-            <h1 class="f4 lh-title mv1 c-black b">Solana Explainer Video</h1>
+            <h1 class="f4 lh-title mv1 c-black b">Solana May Newsletter</h1>
             <p class="lh-copy measure mt2 mb4 mid-gray">
-              Learn all about how we created the worlds fastest blockchain. 250k TPS, 50x community growth and more!
+              Huge announcements this month! Hold onto your seats and keep your arms and legs inside the newsletter at all times.
+            </p>
+            <p class="c-primary f6 f5-ns b flex items-center">
+              Continue Reading
+              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
+            </p>
+          </div>
+        </a>
+      </article>
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
+        <a href="https://www.youtube.com/watch?v=qt_gDRXHrHQ" class="db no-underline br2">
+          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('img/photo-replication-talk.png'); min-height: 200px;"></div>
+          <div class="pa3 bg-white">
+            <h1 class="f4 lh-title mv1 c-black b">An Explanation of Replication</h1>
+            <p class="lh-copy measure mt2 mb4 mid-gray">
+              Greg Fitzgerald explains replication in Solana, the world's fastest blockchain. Avalanche in layman's terms.
+            </p>
+            <p class="c-primary f6 f5-ns b flex items-center">
+              View on Youtube
+              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
+            </p>
+          </div>
+        </a>
+      </article>
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
+        <a href="https://www.youtube.com/watch?v=jG5nlXO499Q" class="db no-underline br2">
+          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('img/photo-google-talk.png'); min-height: 200px;"></div>
+          <div class="pa3 bg-white">
+            <h1 class="f4 lh-title mv1 c-black b">Solana Elevator Pitch at Google</h1>
+            <p class="lh-copy measure mt2 mb4 mid-gray">
+              In April of 2018 we attended a pitch session at Google Headquarters in SF. Alan, our BD leader, is a longtime former Googler.
+            </p>
+            <p class="c-primary f6 f5-ns b flex items-center">
+              View on Youtube
+              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
+            </p>
+          </div>
+        </a>
+      </article>
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
+        <a href="https://www.youtube.com/watch?v=fwf5g_6uRuA" class="db no-underline br2">
+          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('img/photo-digital-garage-talk.png'); min-height: 200px;"></div>
+          <div class="pa3 bg-white">
+            <h1 class="f4 lh-title mv1 c-black b">Technical Deep Dive at Digital Garage</h1>
+            <p class="lh-copy measure mt2 mb4 mid-gray">
+              In March of 2018, our CEO Anatoly Yakovenko gave an in-depth technical overview to a group of engineers at Digital Garage in San Francisco.
+            </p>
+            <p class="c-primary f6 f5-ns b flex items-center">
+              View on Youtube
+              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
+            </p>
+          </div>
+        </a>
+      </article>
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
+        <a href="https://www.youtube.com/watch?v=uhrU0W4J05w" class="db no-underline br2">
+          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('img/photo-node-talk.png'); min-height: 200px;"></div>
+          <div class="pa3 bg-white">
+            <h1 class="f4 lh-title mv1 c-black b">Fireside Chat at Node</h1>
+            <p class="lh-copy measure mt2 mb4 mid-gray">
+              In February of 2018, our CEO Anatoly Yakovenko gave an informal fireside chat with Greg Osuri, founder of Akash. They cover a lot of topics, including Anatoly's vision for Solana.
+            </p>
+            <p class="c-primary f6 f5-ns b flex items-center">
+              View on Youtube
+              <svg class="ml2" xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12"><path fill="#00CF98" fill-rule="nonzero" d="M9.868 1.2L5.485 5.584a.66.66 0 0 0 .933.933L10.8 2.135V3.6a.6.6 0 0 0 1.2 0v-3a.598.598 0 0 0-.6-.6h-3a.6.6 0 0 0 0 1.2h1.468zM12 7.2V4.348v6.156C12 11.33 11.405 12 10.67 12H1.33C.595 12 0 11.33 0 10.504V1.496C0 .67.595 0 1.33 0h6.405H4.8a.6.6 0 1 1 0 1.2H1.542c-.191 0-.342.18-.342.4v8.8c0 .217.153.4.342.4h8.916c.191 0 .342-.18.342-.4V7.2a.6.6 0 1 1 1.2 0z"/></svg>
+            </p>
+          </div>
+        </a>
+      </article>
+      <article class="c-black shadow grow mb3 mb1-ns fl w-100 w-50-m w-33-l pa2-ns">
+        <a href="https://medium.com/solana-labs/proof-of-history-a-clock-for-blockchain-cf47a61a9274" class="db no-underline br2">
+          <div class="db br2 br--top w-100 bg-center cover" style="background-image: url('https://source.unsplash.com/Skf7HxARcoc/400x200'); min-height: 200px;"></div>
+          <div class="pa3 bg-white">
+            <h1 class="f4 lh-title mv1 c-black b">Proof of History</h1>
+            <p class="lh-copy measure mt2 mb4 mid-gray">
+              One of the most difficult problems in distributed systems is agreement on time. Arguably, Bitcoin’s PoW algorithm’s most essential feature is functioning as a decentralized clock for the system.
             </p>
             <p class="c-primary f6 f5-ns b flex items-center">
               Continue Reading
@@ -97,7 +97,7 @@
     </section>
   </section>
 
-  <div class="bg-black-20">
+  <!-- <div class="bg-black-20">
     <section class="mw9 center pv5 ph3 ph5-ns pb6-ns">
       <h1 class="f2 lh-title white">Frequently Asked Questions</h1>
       <p class="lh-copy mb5 measure c-light-gray">
@@ -307,7 +307,7 @@
         </div>
       </section>
     </section>
-  </div>
+  </div> -->
 </main>
 
 <?php include('footer.php'); ?>

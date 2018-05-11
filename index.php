@@ -49,13 +49,13 @@
             <svg class="w-100" xmlns="http://www.w3.org/2000/svg" width="671" height="330" viewBox="0 0 671 330"><g fill="none" fill-rule="evenodd"><path stroke="#807F7F" stroke-dasharray="1 2 1 2" stroke-linecap="square" d="M658.393 248.5h10.214M658.393 294.5h10.214M670.393 248.5v46"/><text fill="#04D790" font-family=".AppleSystemUIFont" font-size="14"><tspan x="547" y="326">710,000 txn/s</tspan></text><path fill="#F4FDFB" d="M0 0h2v22H0zM0 47h2v22H0zM0 94h56v22H0zM0 141h333v22H0zM0 190h456v22H0zM0 237h657v22H0z"/><text fill="#FAFAFA" font-family=".AppleSystemUIFont" font-size="14"><tspan x="55" y="14">Bitcoin 7 txn/s</tspan></text><text fill="#FAFAFA" font-family=".AppleSystemUIFont" font-size="14"><tspan x="55" y="64">Ethereum 14 txn/s</tspan></text><text fill="#FAFAFA" font-family=".AppleSystemUIFont" font-size="14"><tspan x="117" y="108">Visa 65,000 txn/s</tspan></text><text fill="#FAFAFA" font-family=".AppleSystemUIFont" font-size="14"><tspan x="352" y="155">Google 344,000 ads/s</tspan></text><text fill="#FAFAFA" font-family=".AppleSystemUIFont" font-size="14"><tspan x="475" y="207">NASDAQ 500,000 txn/s</tspan></text><path stroke="#807F7F" stroke-dasharray="1 2 1 2" stroke-linecap="square" d="M2.386 10.5h50.281M2.386 58.5h50.281M57.388 103.5h58.224M334.396 151.5h18.362M457.396 202.5h18.362"/><path fill="#FFF" d="M487 285.094l6.067-6.094H520v27.021L514.029 312H487z"/><path fill="#1B302A" d="M499.364 296.717L497 294.342h2.364v2.375zm0 5.283H497l2.364-2.374V302zm2.659-5.283h-2.364v-2.375h2.364v2.375zm2.659 0h-2.364v-2.375h2.364v2.375zm-2.66 5.283h-2.363v-2.374h2.364V302zm2.66 0h-2.364v-2.374h2.364V302zm2.954 0v-2.374H510L507.636 302zm2.364-5.283h-2.364v-2.375l2.364 2.375zm-2.66 0h-2.363v-2.375h2.364v2.375zm0 5.283h-2.363v-2.374h2.364V302zm2.66-2.671h-2.364v-2.375H510v2.375zm-7.977-7.955h-2.364V289h2.364v2.374zm-2.66 0H497l2.364-2.374v2.374zm5.319 0h-2.364V289h2.364v2.374zm2.659 0h-2.364V289h2.364v2.374zm.295 0V289H510l-2.364 2.374zm-8.272 2.672H497v-2.375h2.364v2.375z"/><path fill="#FFF" d="M540.81 291.359c-.56-.804-1.377-1.206-2.449-1.206-.334 0-.661.044-.983.131-.322.088-.61.222-.867.402a2.02 2.02 0 0 0-.616.7c-.155.284-.233.62-.233 1.004 0 .559.161.993.483 1.302.321.308.72.562 1.197.76.477.198.998.375 1.564.533a7.273 7.273 0 0 1 1.564.629c.477.262.876.608 1.198 1.04.321.43.482 1.018.482 1.764 0 .56-.122 1.063-.366 1.511a3.495 3.495 0 0 1-.965 1.127c-.4.303-.846.536-1.34.7a4.739 4.739 0 0 1-1.493.244c-.775 0-1.51-.143-2.208-.428-.697-.285-1.29-.754-1.778-1.407l1.162-.82c.274.453.655.817 1.144 1.091.488.274 1.066.41 1.733.41.322 0 .644-.049.965-.148.322-.099.611-.244.867-.437.256-.192.468-.428.635-.707.167-.28.25-.6.25-.961 0-.431-.092-.79-.277-1.075a2.362 2.362 0 0 0-.733-.716 4.682 4.682 0 0 0-1.036-.48 72.373 72.373 0 0 0-1.198-.385c-.411-.128-.81-.274-1.197-.437a4.15 4.15 0 0 1-1.037-.62 2.786 2.786 0 0 1-.733-.944c-.185-.378-.277-.853-.277-1.424 0-.594.116-1.112.349-1.555.232-.443.542-.81.929-1.1a3.99 3.99 0 0 1 1.314-.647 5.43 5.43 0 0 1 1.501-.21c.715 0 1.364.11 1.948.332.584.221 1.126.612 1.627 1.17l-1.126.857zm24.825 4.141c0-.71-.119-1.39-.357-2.036a5.128 5.128 0 0 0-1.028-1.703 4.945 4.945 0 0 0-1.635-1.17c-.644-.292-1.37-.438-2.18-.438-.811 0-1.538.146-2.181.437a4.945 4.945 0 0 0-1.636 1.17 5.128 5.128 0 0 0-1.027 1.704 5.838 5.838 0 0 0-.358 2.036c0 .71.12 1.39.358 2.036.238.646.58 1.214 1.027 1.703.447.49.992.88 1.636 1.17.643.292 1.37.438 2.18.438s1.537-.146 2.18-.437a4.945 4.945 0 0 0 1.636-1.17c.447-.49.79-1.058 1.028-1.704a5.838 5.838 0 0 0 .357-2.036zm1.394 0c0 .944-.167 1.811-.5 2.603a6.204 6.204 0 0 1-1.385 2.054 6.39 6.39 0 0 1-2.091 1.354 6.902 6.902 0 0 1-2.619.489 6.902 6.902 0 0 1-2.618-.49 6.39 6.39 0 0 1-2.091-1.353 6.204 6.204 0 0 1-1.386-2.054c-.333-.792-.5-1.66-.5-2.603 0-.944.167-1.811.5-2.603a6.204 6.204 0 0 1 1.386-2.054 6.39 6.39 0 0 1 2.09-1.354 6.902 6.902 0 0 1 2.62-.489c.94 0 1.813.163 2.618.49a6.39 6.39 0 0 1 2.09 1.353 6.204 6.204 0 0 1 1.386 2.054c.333.792.5 1.66.5 2.603zm13.798 5.032h5.898v1.153h-7.185v-12.37h1.287v11.217zm19.25-3.25h5.486l-2.734-6.5-2.753 6.5zm-1.877 4.403h-1.502l5.505-12.37h1.251l5.505 12.37h-1.501l-1.394-3.25h-6.47l-1.394 3.25zm31.563-1.887h.036v-10.483h1.287v12.37h-1.609l-7.542-10.588h-.036v10.588h-1.287v-12.37h1.609l7.542 10.483zm16.354-2.516h5.487l-2.734-6.5-2.753 6.5zm-1.877 4.403h-1.5l5.504-12.37h1.251l5.505 12.37h-1.501l-1.394-3.25h-6.47l-1.395 3.25z"/></g></svg>
           </div>
           <div class="fl w-100 w-40-l pa3-ns">
-              <h3 class="f4 mb4 lh-copy">Encoding time on the blockchain</h3>
+              <h3 class="f4 mb4 lh-copy">Proof of History: The Key to Speed</h3>
               <ul>
                 <li class="lh-copy list mb3">
-                  Similar to Google’s spanner, which relies on synchronized atomic clocks, Solana utilizes this concept and applies is to a blockchain. However, implementing this into an adversarial system as Solana is a permission-less blockchain is a major challenge. Traditional methods resolve this through ‘median’ timestamping, which can be slow as each message has to be witnessed by the supermajority (two-thirds) of the network.
+                  Similar to Google’s TrueTime, which relies on synchronized atomic clocks for a trusted source of time and ordering, Solana has created a cryptographically secure, trustless, time source and built a blockchain around it. We call it Proof History.
                 </li>
                 <li class="lh-copy list mb3">
-                  Solana’s solution is to encode the timestamp of messages onto the blockchain. Meaning nodes downstream can verify the time and order of events <i>without</i> witnessing them directly.
+                  By weaving this standardized timestamp into the blockchain, nodes in the network can verify the time and order of events without witnessing them directly. This drastically reduces messaging overhead and is one example of the world of optimization capabilities that become available through Solana’s Proof of History.
                 </li>
               </ul>
             </div>
@@ -66,14 +66,14 @@
             </div>
             <div class="fl w-100 w-40-l pa3-ns">
               <h3 class="f4 mb4 lh-copy">
-                Unlimited nodes with minimal impact on finality
+                Sub-second finality that actually scales
               </h2>
               <ul>
                 <li class="lh-copy list mb3">
-                  Utilising our Proof of History blockchain architecture, we’re able to optimize traditional blockchain algorithms. Traditional methods don’t scale well as the network increases, and often times decentralization is compromised to maintain high throughput.
+                  Decentralized blockchain solutions have a scaling problem. In addition to low transaction rates, maintaining quick finality while the network scales is a major problem and many current solutions compromise decentralisation.
                 </li>
                 <li class="lh-copy list mb3">
-                  Solana solves this challenge by employing Avalanche, which enables an <i>increase</i> in finality times on the network reduce <i>exponentially</i> as the network grows. Thereby maintaining high throughput without having to centralise the network, as we don’t need to concern ourselves with an increasing number of nodes.
+                  Through Solana’s “Avalanche” network communication innovation, finality times reduce exponentially as the network grows. This means we can expect ~500ms finality up through 10s of thousands of nodes and beyond.
                 </li>
               </ul>
             </div>
@@ -88,9 +88,6 @@
                 <li class="lh-copy list mb3">
                   Solana’s approach takes existing blockchain architecture and algorithms and improves on them instead of overlaying additional complexities such as sharding which can compromise security. We believe the right solution is a simple solution.
                 </li>
-                <li class="lh-copy list mb3">
-                  Therefore, sharding is not used in Solana to achieve high throughput, instead we focus on removing the unnecessary bloat in existing blockchain architecture and compound the gains in network efficiency by further optimizing Proof of Stake and Proof of Replication.
-                </li>
               </ul>
             </div>
           </div>
@@ -102,10 +99,10 @@
             <h3 class="f4 mb4 lh-copy">Write smart contracts in any language</h3>
             <ul>
               <li class="lh-copy list mb3">
-                The development community is our top priority. We intend to be the go-to network for developers who want to build decentralised applications of any kind.
+               The development community is our top priority. We intend to be the go-to network for developers who want to build decentralised applications of any kind.
               </li>
               <li class="lh-copy list mb3">
-                With Solana, you can write smart contracts in almost any language. Focus on developing your applications with freedom. We use Berkeley Packet Filter, allowing any language that LLVM supports on the frontend to be supported.
+                With Solana, you can write smart contracts in almost any language. We leverage Berkeley Packet Filter, allowing any language that LLVM supports to be utilized.
               </li>
             </ul>
           </div>
@@ -126,7 +123,7 @@
           <p class="f4 b mb3 pb2">Decentralized exchanges</p>
 
           <p class="f5 lh-copy mb3">
-           Imagine a decentralized trading system that never touches any users’ private keys. The entire order book can be part of the blockchain replicated state and cannot be manipulated by anyone, with all the performance characteristics of Nasdaq. At 710k tps, Solana can fit Nasdaq's volumes with room to spare. We enable this using via atomic cross chain transactions combined with tradable swaps.
+           Imagine a decentralized trading system that never touches users’ private keys. The entire order book is securely included in the blockchain replicated state while retaining all the performance characteristics of Nasdaq. At 710k tps, Solana can fit Nasdaq's volumes with room to spare. We enable this using via atomic cross chain transactions combined with tradable swaps.
           </p>
         </div>
         <div class="w-100 w-80-m w-50-l mb5 pr4-l center">
@@ -136,7 +133,8 @@
           <p class="f4 b mb3 pb2">Payments</p>
 
           <p class="f5 lh-copy mb3">
-            Payments are the holy grail of blockchain, but adoption and scalability are inevitable hurdles. Solana's transactions cost $0.000001 and are lightning fast. This lays the foundation for others to build the payments platform that blockchain has always promised. But scale is required. Bitcoin's throughput, at 3 payments per day per person, is only enough to service the population of Berkeley, California. We can do better.
+            Payments are the holy grail of blockchain, but adoption and scalability are inevitable hurdles. Solana's transactions costs are to be on the order of  $0.000001 and lightning fast. Bitcoin's throughput, at 3 payments per day per person, is only enough to service the population of Berkeley, California. We can do better. Solana lays the foundation for the payments platform that blockchain has always promised.
+
           </p>
         </div>
 
@@ -147,7 +145,7 @@
           <p class="f4 b mb3 pb2">Distributed Web Services and Storage</p>
 
           <p class="f5 lh-copy mb3">
-            The future of cloud storage and web services can be decentralized, end-to-end encrypted, and allow data to only be accessed by users. Decentralized file storage systems have the potential to eliminate high markup costs and market efficiency, and set new standards of unit economics for distributed data storage.
+           The future of cloud storage and web services can be decentralized, encrypted, permissionless, and secure. Decentralized file storage systems have the potential to eliminate high markup and human capital costs, and set new standards of unit economics for distributed data storage.  Solana provides a scalable path for this future to become a reality.
           </p>
         </div>
 
@@ -159,7 +157,7 @@
           <p class="f4 b mb3 pb2">Distributed Ad Exchanges</p>
 
           <p class="f5 lh-copy mb3">
-            If ads are traded on a single, transparent platform, all sorts of ancillary industries can sprout up: tracking and measurement, rating (à la Moody's), and industry reporting (comScore's reports could be deterministic, not panel-based). These business models would require nodes to keep much more extensive ledgers than just day-of transactions. Google serves up 340,000 ads per second, so we need a highly scalable chain to support this future of ad tech.
+            If ads are traded on a single, transparent platform, all sorts of ancillary data-driven industries can sprout up: tracking and measurement, rating, and industry reporting. These business models would require nodes to keep much more extensive ledgers than just day-of transactions. At the same time so we need a highly scalable chain to support this future of ad tech (Google serves up 340,000 ads per second). What distributed solutions are there that can support high speed on-chain data collection? You guessed it, this is where Solana’s high throughput blockchain shines.
           </p>
         </div>
       </section>

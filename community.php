@@ -62,53 +62,53 @@
 
   <div class="bg-black-20">
     <section class="mw9 center pv5 ph3 ph5-ns pb6-ns">
-      <h1 class="f2 lh-title white">Upcoming Events</h1>
+      <h1 class="f2 lh-title white">Events</h1>
       <p class="lh-copy mb5 measure c-light-gray">
         In fact, some argue that Bitcoin’s Proof of Work algorithm’s most essential feature is functioning as a decentralized clock.
       </p>
 
       <section class="">
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="mailto:hello@solana.io" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Talk at Coinbase</h4>
+          <p class="">June 5th, 2018</p>
         </a>
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="mailto:partnerships@solana.io" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Consensus - New York</h4>
+          <p class="">May 14th-15th, 2018</p>
         </a>
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="https://www.eventbrite.com/e/future-of-blockchain-scalability-with-dfinity-kadena-solana-truebit-tickets-45122684163#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Future of Blockchain Scalability with Dfinity, Kadena, Solana, TrueBit</h4>
+          <p class="">April 24th, 2018</p>
         </a>
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="https://www.youtube.com/watch?v=jG5nlXO499Q" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Demo Day at Google</h4>
+          <p class="">April, 2018</p>
         </a>
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="https://www.youtube.com/watch?v=fwf5g_6uRuA" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Talk at Digital Garage</h4>
+          <p class="">March, 2018</p>
         </a>
-        <a href="#" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
+        <a href="https://www.youtube.com/watch?v=uhrU0W4J05w" target="_blank" class="c-primary no-underline w-100 db pa3  bb b--white-10 cf link dim">
           <span class="arrow fr mt3 ml2">
             <svg xmlns="http://www.w3.org/2000/svg" width="8" height="14" viewBox="0 0 8 14"><path fill="#d9d9d9" fill-rule="nonzero" d="M7.77 6.257L1.73.217A.737.737 0 0 0 1.205 0 .737.737 0 0 0 .68.217L.236.662c-.29.29-.29.76 0 1.05l5.072 5.071L.23 11.861a.738.738 0 0 0-.217.525c0 .199.077.385.217.525l.445.445c.14.14.326.217.525.217a.737.737 0 0 0 .525-.217L7.77 7.31a.738.738 0 0 0 .217-.526c0-.2-.077-.387-.217-.527z"/></svg>
           </span>
-          <h4 class="f4 white-80 mb2 lh-title">Solana Fireside Chat @ Node HQ</h4>
-          <p class="">May 30th, 2018</p>
+          <h4 class="f4 white-80 mb2 lh-title">Talk at Node</h4>
+          <p class="">February, 2018</p>
         </a>
       </section>
     </section>
